@@ -27,4 +27,9 @@ KiCad (for schematic and PCB design)
 
 Preview
 
-(Add your PCB screenshots or 3D renders here)
+## Preview
+
+![PCB](pcb.png)
+![3D View](3d2.png)
+![3D View2](3d1.png)
+![Schematic](schematic.png)
