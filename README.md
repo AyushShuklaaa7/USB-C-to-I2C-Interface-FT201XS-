@@ -3,6 +3,12 @@ Overview
 This project converts USB communication to I2C using the FT201XS, making it useful for testing, debugging, or interfacing with I2C-based sensors and modules.
 The board is powered via USB-C and includes an onboard LDO to generate a stable 3.3V supply, which is used for both the IC and I2C communication.
 
+## Preview
+
+![PCB](PCB.png)
+![3D View](3D.png)
+![Schematic](schematic.png)
+
 ⚙️Key Components
 
 1. FT201XS (USB to I2C Bridge)
@@ -25,11 +31,6 @@ The board is powered via USB-C and includes an onboard LDO to generate a stable 
 Tools Used 
 KiCad (for schematic and PCB design)
 
-Preview
 
-## Preview
 
-![PCB](pcb.png)
-![3D View](3d2.png)
-![3D View2](3d1.png)
-![Schematic](schematic.png)
+
