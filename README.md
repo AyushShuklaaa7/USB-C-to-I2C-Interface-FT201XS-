@@ -7,7 +7,7 @@ The board is powered via USB-C and includes an onboard LDO to generate a stable 
 
 ![PCB](PCB.png)
 ![3D View](3D.png)
-![Schematic](Schem1.png)
+![Schematic](Schem1.jpeg)
 
 ⚙️Key Components
 
