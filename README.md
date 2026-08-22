@@ -12,7 +12,7 @@ The board is powered via USB-C and includes an onboard LDO to generate a stable 
 ⚙️Key Components
 
 1. FT201XS (USB to I2C Bridge)
-2. TLV71333PDBVR (3.3V LDO)
+2. TPS7A20_03 (3.3V LDO)
 3. USB-C Connector
 4. Power Indicator LED
 
@@ -25,7 +25,7 @@ The board is powered via USB-C and includes an onboard LDO to generate a stable 
 * It communicates with the host computer over USB and converts those signals into I2C signals (SDA and SCL), which are exposed through the output header.
 * For flexibility, both 3.3V (regulated) and 5V (VBUS) are exposed on the output header. While 5V can be used to power external modules, the I2C communication itself is strictly limited to 3.3V logic levels.
 * Additional protection is included using an ESD protection device on the USB data lines (D+ and D−) to safeguard the board from electrostatic discharge events.
-* An additional pin header is connected to the CBUS0 pin of the FT201XS. This pin can be configured for various functions such as GPIO, status indication, or other control signals, depending on the application.
+
 
 
 Tools Used 
